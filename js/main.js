@@ -35,7 +35,7 @@ function descobrirCDZ(){
         imagem.setAttribute("width","300px");
         div.innerHTML = "Máscara da Morte de Câncer é o Cavaleiro de Ouro de Câncer e protetor da quarta Casa do Zodíaco do século XX. Adora lutas, matança e acredita que, para um objetivo maior, alguns sacrifícios são inevitáveis. As paredes da Casa de Câncer são enfeitadas com os rostos das pessoas que foram mortas até hoje por Máscara da Morte.";
     }
-    else if(data >= '12/22' && data <= '01/20'){
+    else if(data >= '12/22' && data <= '12/31' || data <= '01/20' && data >= '01/01'){
         texto.innerHTML = "Capricórnio";
         imagem.setAttribute("src","img/capricornio.jpg");
         imagem.setAttribute("width","300px");
